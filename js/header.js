@@ -25,6 +25,7 @@ document.write('\
   <div class="container header">\
     <div class="ftheader text"><a href='+params["prefix"]+'#home>Yedi Zhang</a></div>\
     <div class="ftsubheader text"><a href='+params["prefix"]+'#awardsTeaching>Awards & Teaching</a></div>\
+    <div class="ftsubheader text"><a href='+params["prefix"]+'#services>Services</a></div>\
     <div class="ftsubheader text"><a href='+params["prefix"]+'#publications>Publications</a></div>\
     <div class="ftsubheader text"><a href='+params["prefix"]+'#home>Home</a></div>\
   </div>\

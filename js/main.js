@@ -43,3 +43,56 @@ function showRecruit() {
   recruit = 1 - recruit;
 }
 
+function toggleTextNews(){
+  let showMoreNews = document.getElementById("moreNews");
+  let showMoreNewsButton = document.getElementById("moreNewsButton");
+
+  if (moreNews.style.display === "inline") {
+    showMoreNews.style.display = "none";
+    // showCurrentNews.style.display = "inline";
+    showMoreNewsButton.innerHTML = "Show More";
+               
+  }
+  else {
+    // Hide the text between the span
+    // elements
+    showMoreNews.style.display = "inline";
+ 
+    // Show the dots after the text
+    // showCurrentNews.style.display = "inline";
+ 
+    // Change the text on button to
+    // 'Show More'
+    showMoreNewsButton.innerHTML = "Show Less";
+  }
+}
+
+function toggleTextPubs(){
+  let showMorePubs = document.getElementById("morePubs");
+  let showMorePubsButton = document.getElementById("morePubsButton");
+            
+  if (morePubs.style.display === "inline") {
+    showMorePubs.style.display = "none";
+    // showCurrentNews.style.display = "inline";
+    showMorePubsButton.innerHTML = "Show More";
+                
+  }
+  else {
+    // Hide the text between the span
+    // elements
+    showMorePubs.style.display = "inline";
+ 
+    // Show the dots after the text
+    // showCurrentNews.style.display = "inline";
+ 
+    // Change the text on button to
+    // 'Show More'
+    showMorePubsButton.innerHTML = "Show Less";
+  }
+}
+
+// function toggleTest{
+//   let showMorePubs = document.getElementById("morePubs");
+//   showMorePubs.style.display = "inline";
+// }
+
