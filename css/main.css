@@ -22,6 +22,12 @@ div.content a:hover,
 div.content a:hover div.text,
 div.ftsubheader a:hover{text-decoration:underline}
 #span.yd{color:#000000;font-weight:600;text-decoration:underline}
+#moreNews{
+    display: none;
+}
+#morePubs{
+    display: inline;
+}
 span.yd{color:#000000;font-weight:600}
 span.author{white-space:nowrap}
 div.outercontainer{text-align:center}
@@ -66,4 +72,8 @@ div.recruit{display:none}
     div.heading div.info{padding-right:calc(40% - 350px)}
     div.publication div.img{width:23%}
     div.publication div.text{max-width:70%;text-align:left}
+}
+div.show-more {
+    padding: 10px 0;
+    text-align: center;
 }
