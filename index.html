@@ -60,59 +60,50 @@
             <!-- <p ><span style="color:#BB2222"><b>[Update!]</b></span> Currently, I am looking for a post doc position in the field of trustworthy AI.</p> -->
           </div>
         </div>
+        
 
         <div class="content" style="z-index:1;position:relative">
           <div class="text">
             <h3 style="margin-bottom:.5em">News</h3>
             <ul style="padding-bottom:1em">
-              <li>2023/09 -- One conference paper is accepted by NDSS 2024.</li>
-              <li>2023/09 -- One conference paper is accepted by OOPSLA 2023.</li>
-              <li>2023/06 -- Get my PhD degree. Congrats to myself - Dr. Zhang!</li>
-              <li>2023/05 -- One conference paper is accepted by USENIX Security 2023.</li>
-              <!-- <li>2022/09 -- One conference paper is submitted to ICSE 2023.</li> -->
-              <li>2023/04 -- One conference paper is accepted by CAV 2023.</li>
-              <li>2022/10 -- I am awarded with 2022 National Scholarship for Doctoral Students!</li>
-              <li>2022/08 -- One journal paper is accepted by TOSEM 2022.</li>
-              <li>2022/07 -- One conference paper is accepted by ASE 2022.</li>
-              <li>2022/07 -- One conference paper is accepted by SAS 2022. </li>
-              <li>2022/03 -- I started my year-long visit at Singapore Management University, supervised by Prof. <a href="https://sunjun.site/">Jun Sun</a>.</li>
-              <li>2021/04 -- One conference paper is accepted by CAV 2021.</li>
-              <!-- <li>2020/09 -- I started my Ph.D. program.</li> -->
-              <li>2019/10 -- I visited <a href="https://depend.cs.uni-saarland.de/">Dependable Systems and Software group</a> at Universität des Saarlandes.</li>
- <!--              <li>2019/07 -- One paper accepted by IEEE Access 2019
-              <li>2019/02 -- Give an oral presentation of our work at AAAI 2019 at Hawaii, USA.
-              <li>2018/10 -- One paper accepted by AAAI 2019 -->
+                <!-- <span id="currentNews"> -->
+                  <li>2023/10 -- I will be attending <a href="https://www.tudelft.nl/en/eemcs/the-faculty/departments/software-technology/f-cube">F+Cube</a> 2023!</li>
+                  <li>2023/09 -- One conference paper is accepted by NDSS 2024.</li>
+                  <li>2023/09 -- One conference paper is accepted by OOPSLA 2023.</li>
+                  <li>2023/06 -- Get my PhD degree. Congrats to myself - Dr. Zhang!</li>
+                  <li>2023/05 -- One conference paper is accepted by USENIX Security 2023.</li>
+                  <!-- <li>2022/09 -- One conference paper is submitted to ICSE 2023.</li> -->
+                  <li>2023/04 -- One conference paper is accepted by CAV 2023.</li>
+                  <li>2022/10 -- I am awarded with 2022 National Scholarship for Doctoral Students!</li>
+                  <li>2022/08 -- One journal paper is accepted by TOSEM 2022.</li>
+                  <li>2022/07 -- One conference paper is accepted by ASE 2022.</li>
+                  <li>2022/07 -- One conference paper is accepted by SAS 2022. </li>
+                  <li>2022/03 -- I started my year-long visit at Singapore Management University, supervised by Prof. <a href="https://sunjun.site/">Jun Sun</a>.</li>
+                <!-- </span> -->
+                <!-- <span id="currentNews"><li>...</li></span> -->
+                <span id="moreNews">
+                  <li>2021/04 -- One conference paper is accepted by CAV 2021.</li>
+                  <li>2019/10 -- I visited <a href="https://depend.cs.uni-saarland.de/">Dependable Systems and Software group</a> at Universität des Saarlandes.</li>
+                
+                  <li>2019/07 -- One paper accepted by IEEE Access 2019.</li>
+                  <li>2019/02 -- Give an oral presentation of our work at AAAI 2019 at Hawaii, USA.</li>
+                  <li>2018/10 -- One paper accepted by AAAI 2019.</li>
+                </span>
+              <li><button onclick="toggleTextNews()" id="moreNewsButton"> Show More</button></li>
+              <!--  -->
             </ul>
           </div>
         </div>
-
-<!--         <div class="content" style="z-index:1;position:relative">
-          <div class="text">
-            <h3 style="margin-bottom:.5em">Activities</h3>
-            <ul style="padding-bottom:1em">
-              <li>2019/07 -- Sub-reviewer of ICECCS 2019</li>
-              <li>2018/09 -- Student Volunteer at CONFESTA 2018, Beijing, China</li>
-              <li>2018/07 -- Student Volunteer at SSIST 2018, Shanghai, China</li>
-            </ul>
-          </div>
-        </div> -->
-
+        
+        
         <div class="content anchor" id="publications">
-          <div class="text" style="z-index:1;position:relative">
-            <h3 style="margin-bottom:0em">
-              Publications (show all by year)
-            </h3>
-          </div>
-          
+          <div class="content" style="z-index:1;position:relative">
+            <div class="text">
+              <h3 style="margin-bottom:.5em">Publications (show all by year)</h3>
+              <ul style="padding-bottom:1em">
+                  
+                  <!-- ######################################################### 2024 ######################################################### -->
 
-          <div id="pubs"></div>
-
-         
-          <script id="pubs_by_date" language="text">
-          
-            <div class="text anchor" id="mass">
-              </br>
-              <ol style="padding-bottom:1em">
                 <li>
                   <span class="yd">SLMIA-SR: Speaker-Level Membership Inference Attacks against Speaker Recognition Systems</span>
                   <div class="authors">
@@ -120,26 +111,27 @@
                     <span style="color:#BB2222">Yedi Zhang</span>, 
                     <a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/">Fu Song</a></span>
                   </div>
-                  
+                    
                   <span class="tag">Network and Distributed System Security Symposium (<b>NDSS</b>), 2024.</span>
                   <span class="tag"> [<a href="https://github.com/S3L-official/SLMIA-SR">Code</a>]</span>
                 </li>
-                
+                  
+                  <!-- ######################################################### 2023 ######################################################### -->
+
                 <li>
                   <span class="yd">Compositional Verification of Efficient Masking Countermeasures against Side-Channel Attacks</span>
                   <div class="authors">
-                    
+                      
                     <span class="author"><a href="https://cumt-gpf.github.io/">Pengfei Gao</a></span>,
                     <span style="color:#BB2222">Yedi Zhang</span>, 
                     <a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/">Fu Song</a></span>,
                     <a href="https://chentaolue.github.io/">Taolue Chen</a>,
                     Francois-Xavier Standaert
                   </div>
-                  
+                    
                   <span class="tag">OOPSLA, 2023.</span>
-                  
                 </li>
-                
+                                
                 <li>
                   <a href="https://www.usenix.org/system/files/usenixsecurity23-chen-guangke.pdf"><span class="yd">QFA2SR: Query-Free Adversarial Transfer Attacks to Speaker Recognition Systems</span></a>
                   <div class="authors">
@@ -148,7 +140,7 @@
                     <a href="http://persistz.github.io/">Zhe Zhao</a></span>, 
                     <a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/">Fu Song</a></span>
                   </div>
-                  
+                    
                   <span class="tag">USENIX Security, 2023.</span>
                   <span class="tag"> [<a href="https://sites.google.com/view/qfa2sr">Website</a>]</span>
                 </li>
@@ -160,10 +152,12 @@
                     <a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/">Fu Song</a>,
                     <a href="https://sunjun.site/">Jun Sun</a></br>
                   </div>
-                    
+                      
                   <span class="tag">International Conference on Computer-Aided Verification (<b>CAV</b>), 2023.</span>
                   <span class="tag"> [<a href="https://github.com/S3L-official/QEBVerif">Code</a>]</span>
                 </li>
+
+                <!-- ######################################################### 2022 ######################################################### -->
 
                 <li>
                   <a href="https://dl.acm.org/doi/10.1145/3563212"><span class="yd">Precise Quantitative Analysis of Binarized Neural Networks: A BDD-based Approach</span></a></br>
@@ -174,7 +168,7 @@
                     <a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/">Fu Song</a>,
                     <a href="https://chentaolue.github.io/">Taolue Chen</a></br>
                   </div>
-                    
+                      
                   <span class="tag">ACM Transactions on Software Engineering and Methodology (<b>TOSEM</b>), 2022.</span>
                   <span class="tag"> [<a href="https://github.com/S3L-official/BNNQuanalyst">Code</a>]</span>
                 </li>
@@ -190,7 +184,7 @@
                     <a href="https://chentaolue.github.io/">Taolue Chen</a></span>,
                     <a href="https://sunjun.site/">Jun Sun</a></span>
                   </div>
-                  
+                    
                   <span class="tag">International Conference on Automated Software Engineering (<b>ASE</b>), 2022.</span>
                   <span class="tag"> [<a href="https://github.com/S3L-official/QVIP">Code</a>]</span>
                 </li>
@@ -206,9 +200,11 @@
                     <a href="https://chentaolue.github.io/">Taolue Chen</a></span>,
                     Jiaxiang Liu
                   </div>
-                  
+                    
                   <span class="tag">International Static Analysis Symposium (<b>SAS</b>), 2022.</span>
                 </li>
+
+                <!-- ######################################################### 2021 ######################################################### -->
 
                 <li>
                   <a href="https://link.springer.com/chapter/10.1007/978-3-030-81685-8_8/"><span style="color:Black"><b>BDD4BNN: A BDD-based Quantitative Analysis Framework for Binarized Neural Networks</b></span></a>
@@ -223,55 +219,78 @@
                   International Conference on Computer-Aided Verification (<b>CAV</b>), 2021.
                   <span class="tag"> [<a href="https://github.com/S3L-official/BNNQuanalyst">Code</a>]</span>
                 </li>     
-            
 
-                <li>
-                  <a href="https://doi.org/10.1109/ACCESS.2019.2931514"><span style="color:Black"><b>Making Agents Abilities Explicit</b></span></a>
-                  <div class="authors">
-                    <span style="color:#BB2222">Yedi Zhang</span>,
-                    <a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/">Fu Song</a>,
-                    <a href="https://chentaolue.github.io/">Taolue Chen</a>
-                  </div>
-                  
-                  <span class="tag">IEEE Access, 2019.</span>
-                  <span class="tag"> [<a href="https://github.com/MCMAS-ACGS/MCMAS-ACGS">Code</a>]</span>
-                </li>
+                <!-- ######################################################### 2019 ######################################################### -->
 
-                <li>
-                  <a href="https://aaai.org/ojs/index.php/AAAI/article/view/4576"><span style="color:Black"><b>Probabilistic Alternating-Time Mu-Calculus</b></span></a>
-                  <div class="authors">
-                    <a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/">Fu Song</a>,
-                    <span style="color:#BB2222">Yedi Zhang*</span>,
-                    <a href="https://chentaolue.github.io/">Taolue Chen</a>,
-                    Yu Tang,
-                    <a href="http://csse.szu.edu.cn/staff/xuzw/">Zhiwu Xu</a>
-                  </div>
+                <span id="morePubs">
+
+                  <li>
+                    <a href="https://doi.org/10.1109/ACCESS.2019.2931514"><span style="color:Black"><b>Making Agents Abilities Explicit</b></span></a>
+                    <div class="authors">
+                      <span style="color:#BB2222">Yedi Zhang</span>,
+                      <a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/">Fu Song</a>,
+                      <a href="https://chentaolue.github.io/">Taolue Chen</a>
+                    </div>
                       
-                  <span class="tag">Proceedings of the Thirty-Third AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2019.</span>
-                  <span class="tag"> [<a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/Projects/pamc/PAMCSolver/">Code</a>]</span>
-                  <span class="highlight">(Oral)</span></br>
+                    <span class="tag">IEEE Access, 2019.</span>
+                    <span class="tag"> [<a href="https://github.com/MCMAS-ACGS/MCMAS-ACGS">Code</a>]</span>
+                  </li>
 
-                  <span class="tag">A model checker for PAMC (Probabilistic Alternating-Time Mu-Calculus) can also be found <a href="https://faculty.sist.shanghaitech.edu.cn/faculty/songfu/Projects/pamc/epmc-pamc/">here</a>.</span>
+                  <li>
+                    <a href="https://aaai.org/ojs/index.php/AAAI/article/view/4576"><span style="color:Black"><b>Probabilistic Alternating-Time Mu-Calculus</b></span></a>
+                    <div class="authors">
+                      <a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/">Fu Song</a>,
+                      <span style="color:#BB2222">Yedi Zhang*</span>,
+                      <a href="https://chentaolue.github.io/">Taolue Chen</a>,
+                      Yu Tang,
+                      <a href="http://csse.szu.edu.cn/staff/xuzw/">Zhiwu Xu</a>
+                    </div>
+                         
+                    <span class="tag">Proceedings of the Thirty-Third AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2019.</span>
+                    <span class="tag"> [<a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/Projects/pamc/PAMCSolver/">Code</a>]</span>
+                    <span class="highlight">(Oral)</span></br>
 
-                </li>
+                    <span class="tag">A model checker for PAMC (Probabilistic Alternating-Time Mu-Calculus) can also be found <a href="https://faculty.sist.shanghaitech.edu.cn/faculty/songfu/Projects/pamc/epmc-pamc/">here</a>.</span>
+                  </li>
+                  
+                  <!-- ######################################################### 2018 ######################################################### -->
+
+                  <li>
+                    <a href="http://www.jos.org.cn/html/2018/6/5462.htm"><span style="color:Black"><b>Model Checking for Heterogeneous Multi-agent Systems (In Chinese)</b></span></a> 
+                    <div class="authors">
+                      <span style="color:#BB2222">Yedi Zhang</span>,
+                      <a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/">Fu Song</a>
+                    </div>
+                        
+                    <span class="tag">Journal of Software (<b>JOS</b>), 2018.</span>
+                    <span class="highlight">(Presented on FMAC 2017)</span>
+                  </li>
+
+                </span>
+
+                <!-- <li><button onclick="toggleTextPubs()" id="morePubsButton"> Show More (before 2021)</button></li> -->
+              
+              </ul>
             
-                <li>
-                  <a href="http://www.jos.org.cn/html/2018/6/5462.htm"><span style="color:Black"><b>Model Checking for Heterogeneous Multi-agent Systems (In Chinese)</b></span></a> 
-                  <div class="authors">
-                    <span style="color:#BB2222">Yedi Zhang</span>,
-                    <a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/">Fu Song</a>
-                  </div>
-                    
-                  <span class="tag">Journal of Software (<b>JOS</b>), 2018.</span>
-                  <span class="highlight">(Presented on FMAC 2017)</span>
-                </li>
-              </ol>
+              
 
             </div>
+          </div>        
+        </div>
+        
 
-          </script>
+        <div class="content anchor" id="services">
+          <div class="content" style="z-index:1;position:relative">
+            <div class="text">
+              <h3 style="margin-bottom:.5em">Services</h3>
+              <ul style="padding-bottom:1em">
+                <li>Program Committee: PRDC'2023</li>
+                <li>Reviewer: SEFM'2023, ATVA'2023, ATVA'2022</li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-        </div>  <!-- content -->
 
         <div class="content anchor" id="awardsTeaching">
           <div class="content" style="z-index:1;position:relative">
@@ -287,15 +306,6 @@
                 <li>Merit Student at ShanghaiTech University, 2019</li>
                 <li>AAAI Travel Grant, 2019</li>
                 <li>ICM Meritorious Winner, 2016</li>
-                <!-- <li>2023/06 -- Outstanding Doctoral Graduates of Shanghai, 2023</li>
-                <li>2023/05 -- Outstanding Doctoral Graduates of ShanghaiTech University, 2023</li>
-                <li>2022/10 -- National Scholarship for Doctoral Students, 2022</li>
-                <li>2021/12 -- Excellent Student at ShanghaiTech University, 2021</li>
-                <li>2020/12 -- Excellent Student at ShanghaiTech University, 2020</li>
-                <li>2019/12 -- CSC-IBM Excellent Chinese Student Scholarship, 2019</li>
-                <li>2019/12 -- Merit Student at ShanghaiTech University, 2019</li>
-                <li>2019/01 -- AAAI Travel Grant, 2019</li>
-                <li>2016/04 -- ICM Meritorious Winner, 2016</li> -->
               </ul>
             </div>
           </div>
